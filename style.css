@@ -60,3 +60,9 @@ body, div, a {
 	background: -moz-linear-gradient(top, #EDEDED, #DCDCDC);
 	border-radius: 10px;
 }
+
+a:hover{
+    background: -webkit-gradient(linear, left top, left bottom, from(#DCDCDC), to(#EDEDED));
+    background: -moz-linear-gradient(top,  #DCDCDC,  #EDEDED);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DCDCDC', endColorstr='#EDEDED');
+}
